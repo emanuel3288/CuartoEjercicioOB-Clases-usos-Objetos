@@ -1,10 +1,8 @@
 package com.exampleOB;
 
 public class SmartPhone extends SmartDevice {
-
     //como no encontré una diferencia entre el smartphone y el smartwatch voy a poner llamadas.
     protected boolean llamadas;
-
     //constructor vacio a llenar cuando quiera de smartphone
     public SmartPhone() {
 

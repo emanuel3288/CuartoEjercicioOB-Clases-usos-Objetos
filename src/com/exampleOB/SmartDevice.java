@@ -2,13 +2,11 @@ package com.exampleOB;
 
 public class SmartDevice {
     protected String sistemaOperativo;
-    Double tamañoDePantallaTactil;
-
-    Double duracionDeLaBateriaEnH;
-    String memoriaRam;
-    String capacidadDeAlmacenamiento;
-
-    boolean camaraDeFotos;
+    protected Double tamañoDePantallaTactil;
+    protected Double duracionDeLaBateriaEnH;
+    protected String memoriaRam;
+    protected String capacidadDeAlmacenamiento;
+    protected boolean camaraDeFotos;
 
     // Constructor vacio
     public SmartDevice() {
@@ -23,16 +21,8 @@ public class SmartDevice {
         this.capacidadDeAlmacenamiento = capacidadDeAlmacenamiento;
         this.camaraDeFotos = camaraDeFotos;
     }
-
     @Override
     public String toString() {
-        return "SmartDevice{" +
-                "sistemaOperativo='" + sistemaOperativo + '\'' +
-                ", tamañoDePantallaTactil=" + tamañoDePantallaTactil +
-                ", duracionDeLaBateriaEnH=" + duracionDeLaBateriaEnH +
-                ", memoriaRam=" + memoriaRam +
-                ", capacidadDeAlmacenamiento=" + capacidadDeAlmacenamiento +
-                ", camaraDeFotos=" + camaraDeFotos +
-                '}';
+        return "SmartDevice{" + "sistemaOperativo='" + sistemaOperativo + '\'' + ", tamañoDePantallaTactil=" + tamañoDePantallaTactil + ", duracionDeLaBateriaEnH=" + duracionDeLaBateriaEnH + ", memoriaRam=" + memoriaRam + ", capacidadDeAlmacenamiento=" + capacidadDeAlmacenamiento + ", camaraDeFotos=" + camaraDeFotos + '}';
     }
 }

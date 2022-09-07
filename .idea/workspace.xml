@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f32a9458-5df3-4a01-ab18-e4f6723a89a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exampleOB/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exampleOB/SmartDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exampleOB/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exampleOB/SmartWatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exampleOB/SmartDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exampleOB/SmartDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exampleOB/SmartPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exampleOB/SmartPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exampleOB/SmartWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exampleOB/SmartWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -52,7 +50,7 @@
       <module name="Ejercicio4OB-Clases" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exampleOB.*" />
+          <option name="PATTERN" value="com.exampleOB.superclase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

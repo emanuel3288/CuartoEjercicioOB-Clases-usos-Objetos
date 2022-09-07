@@ -7,12 +7,10 @@ public class SmartWatch extends SmartDevice {
 
     public SmartWatch() {
     }
-
     public SmartWatch(String sistemaOperativo, Double tamañoDePantallaTactil, Double duracionDeLaBateriaEnH, String memoriaRam, String capacidadDeAlmacenamiento, boolean camaraDeFotos, boolean reloj) {
         super(sistemaOperativo, tamañoDePantallaTactil, duracionDeLaBateriaEnH, memoriaRam, capacidadDeAlmacenamiento, camaraDeFotos);
         this.reloj = reloj;
     }
-
     @Override
     public String toString() {
         return "SmartWatch{" +
