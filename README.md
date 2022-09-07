@@ -1,6 +1,6 @@
 Ejercicio
 
-Crear una clase SmartDevice
+Crear una clase smartdevice
 
 Crear las clases hijas:
 
